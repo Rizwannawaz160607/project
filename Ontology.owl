@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Colouring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Colouring">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Dairy_Products -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Dairy_Products">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E101">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E121 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E121">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E285 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E285">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Egg_and_Egg_products -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Egg_and_Egg_products">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Meet_and_Meet_Product -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Meet_and_Meet_Product">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milk">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Salt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Salt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Sugar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Sugar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Sugar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Thickening_Agents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Thickening_Agents">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#coloring_agent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#coloring_agent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E_Additive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#E_Additive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Colouring_Agents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Colouring_Agents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Dairy_Products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Dairy_Products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Egg_Products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Egg_Products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Meat_Products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Meat_Products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Milo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Product_Or_Service"/>
+        <Name>Milo Drink</Name>
+        <ID>102</ID>
+        <coloring_agent rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Colouring_Agents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Salt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Salt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Sugar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Sugar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Ingerdient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Thickening_Agents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Thickening_Agents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rizwan/ontologies/2019/4/untitled-ontology-4#Food_Additive"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
